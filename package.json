@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://djbotha.github.io/botha-wedding/index.html",
+  "homepage": "https://bothawedding.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
