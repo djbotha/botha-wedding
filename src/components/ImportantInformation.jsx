@@ -1,5 +1,5 @@
 import React from 'react';
 
 export function ImportantInformation() {
-  return <div>ImportantInformation</div>;
+  return <div className="h-56"></div>;
 }

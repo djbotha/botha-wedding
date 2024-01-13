@@ -84,9 +84,19 @@ function Timeline() {
 
 export function OurStory() {
   return (
-    <div className="h-48">
+    <div className="flex justify-center items-center py-8">
       {/* <Timeline /> */}
-      {/* OurStory */}
+      <div className="text-center w-1/2">
+        <p className="mb-4">
+          Back in Grade 6, Daniël and Nadia's friendship sparked over chocolate Milky Mouse ice cream triangles in a secret tree hideaway. Amidst
+          teenage twists and turns, miscommunication led to heartbreak, but their bond endured.
+        </p>
+        <p className="mb-4">
+          Fast forward to 2021, a quirky coffee date hinted at deeper feelings, and in December, Nadia declared, "I'm going to marry this man." An
+          amusing encounter with Daniël's best friend solidified the connection, leading to a heartfelt proposal after 18 months.
+        </p>
+        <p>Their love story continues, promising laughter and love in abundance. 💍</p>
+      </div>
     </div>
   );
 }

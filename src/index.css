@@ -5,3 +5,8 @@
 body {
   font-family: 'Montserrat Variable', sans-serif;
 }
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}

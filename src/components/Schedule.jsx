@@ -1,5 +1,5 @@
 import React from 'react';
 
 export function Schedule() {
-  return <div>Schedule</div>;
+  return <div className=" h-56"></div>;
 }

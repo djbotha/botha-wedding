@@ -1,5 +1,5 @@
 import React from 'react';
 
 export function RSVP() {
-  return <div>RSVP</div>;
+  return <div className="h-56"></div>;
 }
