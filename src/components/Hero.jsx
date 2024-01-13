@@ -1,13 +1,14 @@
 import React from 'react';
+import heroImage from '../assets/Hero.jpg';
+import logoWhite from '../assets/logo-white.PNG';
 
-function Hero() {
+export function Hero() {
   return (
-    <div className="bg-[url('/save-the-date.jpeg')] w-full bg-no-repeat bg-cover bg-center pt-64 pb-8">
-      <h1 className="text-center text-8xl">Daniël & Nadia</h1>
-      <h2 className="text-center text-lg">22 Jun 2024</h2>
-      <h2 className="text-center">Belair Pavilion, Paarl</h2>
+    <div className="w-full h-96 relative">
+      <img src={heroImage} className="w-full h-full absolute top-o left-0 object-cover " />
+      <div className="h-full w-full bg-black bg-opacity-40 z-10 absolute">
+        <img src={logoWhite} className="w-full h-1/2 absolute  top-1/2 -translate-y-1/2 z-10 object-contain" />
+      </div>
     </div>
   );
 }
-
-export default Hero;
