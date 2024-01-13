@@ -62,18 +62,18 @@ function TimelineNode({ node, idx }) {
         left: `${progression}%`,
       }}
     >
-      {even ? <div className="my-2 text-xs whitespace-nowrap">{node.title}</div> : null}
-      <div className={`rounded-full h-20 w-20 border-solid border-black border-2 bg-white shadow-lg`}></div>
-      {even ? null : <div className="my-2 text-xs whitespace-nowrap">{node.title}</div>}
+      {even ? <div className="my-2 whitespace-nowrap text-xs">{node.title}</div> : null}
+      <div className={`h-20 w-20 rounded-full border-2 border-solid border-black bg-white shadow-lg`}></div>
+      {even ? null : <div className="my-2 whitespace-nowrap text-xs">{node.title}</div>}
     </div>
   );
 }
 
 function Timeline() {
   return (
-    <div className="my-16 relative h-20 mx-32">
-      <div className="border-b-black border-b-2 absolute w-full inset-y-1/2"></div>
-      <div className="absolute w-full h-20">
+    <div className="relative mx-32 my-16 h-20">
+      <div className="absolute inset-y-1/2 w-full border-b-2 border-b-black"></div>
+      <div className="absolute h-20 w-full">
         {timeline.map((node, idx) => (
           <TimelineNode node={node} idx={idx} />
         ))}
@@ -84,9 +84,9 @@ function Timeline() {
 
 export function OurStory() {
   return (
-    <div className="flex justify-center items-center py-8">
+    <div className="flex items-center justify-center py-8">
       {/* <Timeline /> */}
-      <div className="text-center w-1/2">
+      <div className="p-8 text-center md:w-1/2 md:p-0">
         <p className="mb-4">
           Back in Grade 6, Daniël and Nadia's friendship sparked over chocolate Milky Mouse ice cream triangles in a secret tree hideaway. Amidst
           teenage twists and turns, miscommunication led to heartbreak, but their bond endured.

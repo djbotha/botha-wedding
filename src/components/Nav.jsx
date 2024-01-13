@@ -6,15 +6,19 @@ import info from '../assets/info.jpg';
 
 function NavItem({ title, img, target }) {
   return (
-    <a className="rounded-t-full flex flex-col relative px-4 cursor-pointer " href={`#${target}`}>
-      <img src={img} className="h-80 w-48 object-cover rounded-full  " />
+    <a className="relative flex cursor-pointer flex-col rounded-t-full p-2 " href={`#${target}`}>
+      <img src={img} className="h-80 w-48 rounded-full object-cover  " />
       <div
-        className="-rotate-90 grow-0 shrink-1 relative
+        className="
+        shrink-1
+        relative
         -right-40
-      text-sm "
+        grow-0
+        -rotate-90
+        text-sm "
         style={{ transformOrigin: 'left' }}
       >
-        <span className=" bg-nandor-500  text-slate-200 py-1 px-2">{title}</span>
+        <span className=" absolute whitespace-nowrap  bg-nandor-500 px-2 py-1 text-slate-200">{title}</span>
       </div>
     </a>
   );
@@ -22,7 +26,7 @@ function NavItem({ title, img, target }) {
 
 export function Nav() {
   return (
-    <div className="w-full flex justify-center items-center bg-nandor-50 py-8">
+    <div className="flex w-full flex-wrap items-center justify-center bg-nandor-50 py-8" id="nav">
       <NavItem title="RSVP" target="rsvp" img={rsvp} />
       <NavItem title="Important Information" target="information" img={info} />
       <NavItem title="Location & Accommodation" target="location" img={location} />
