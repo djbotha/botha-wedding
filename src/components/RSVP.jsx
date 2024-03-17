@@ -22,11 +22,29 @@ function RSVPEmbed() {
 export function RSVP() {
   const [showRSVP, setShowRSVP] = useState(false);
   return (
-    <div className="flex justify-center">
-      <div className="">
-        <div className="text-tuatara-900 mx-auto inline-block">
-          We would love to have you attend our wedding. Please RSVP by clicking the button below.
-        </div>
+    <div className="flex justify-center p-8">
+      <div className="md:w-1/2">
+        <p className="mx-auto mb-4 ">We would love to have you attend our wedding!</p>
+        <b>Information</b>
+        <ul className="mb-4  list-disc">
+          <li>To confirm your attendance, please RSVP by clicking the button in the following section.</li>
+          <li>
+            To help us with our planning, we ask that you kindly RSVP by <b>22 May 2024</b>.
+          </li>
+          <li>
+            If we don't receive your RSVP by the <b>date specified</b>, we cannot make any exceptions and will have to mark you as 'no'.
+          </li>
+          <li>Please include all names of attendees in your response.</li>
+          <li>
+            Unfortunately, we cannot accommodate <b>additional guests</b>, we can only accommodate those formally invited on your wedding invitation.
+          </li>
+          <li>
+            We love your little ones as much as you do! However, we have decided to keep our wedding as an <b>adult only</b> event.
+          </li>
+        </ul>
+
+        <div>Please RSVP by clicking the button below and filling out the form.</div>
+
         <button
           onClick={() => setShowRSVP(o => !o)}
           className="bg-tuatara-700 mx-auto my-8 flex  items-center rounded-md px-6 py-4 text-lg text-slate-200"

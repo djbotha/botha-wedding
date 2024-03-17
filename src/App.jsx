@@ -6,32 +6,36 @@ import { Schedule } from './components/Schedule';
 import { Location } from './components/Location';
 import { Accommodation } from './components/Accommodation';
 import { RSVP } from './components/RSVP';
-import { OurStory } from './components/OurStory';
 import { Footer } from './components/Footer';
 import Section from './components/Section';
 import { BackToTop } from './components/BackToTop';
+import trees from './assets/abstract/trees.JPEG';
+import rocks2 from './assets/abstract/rocks2.PNG';
+import rocks from './assets/abstract/rocks.PNG';
+import clouds from './assets/abstract/clouds.PNG';
+import accommodation from './assets/covers/accommodation.PNG';
+import rsvp from './assets/covers/rsvp.PNG';
+import important from './assets/covers/important.JPEG';
+import onTheDay from './assets/covers/on-the-day.JPEG';
 
 function App() {
   return (
     <div className="w-full ">
       <Hero />
 
-      <Section>
-        <OurStory />
-      </Section>
       <Section highlight>
         <Nav />
       </Section>
-      <Section title={'Important Information'} id="information">
+      <Section title={'Important Information'} id="information" sidebar={trees} cover={important}>
         <ImportantInformation />
       </Section>
-      <Section highlight title="RSVP" id="rsvp">
+      <Section highlight title="RSVP" id="rsvp" right sidebar={rocks} cover={rsvp}>
         <RSVP />
       </Section>
-      <Section title="Location & Accommodation" id="location">
+      <Section title="Location & Accommodation" id="location" sidebar={clouds} cover={accommodation}>
         <Location />
       </Section>
-      <Section highlight title={'Schedule'} id="schedule">
+      <Section highlight title={'On The Day'} id="schedule" sidebar={rocks2} cover={onTheDay} right>
         <Schedule />
       </Section>
       <Section>

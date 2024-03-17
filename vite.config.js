@@ -8,5 +8,5 @@ export default defineConfig({
   server: {
     port: 3001,
   },
-  assetsInclude: ['**/*.PNG', '**/*.jpg'],
+  assetsInclude: ['**/*.PNG', '**/*.jpg', '**/*.JPEG'],
 });

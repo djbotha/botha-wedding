@@ -3,6 +3,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        handwritten: ['Aire Bold Std'],
+      },
       colors: {
         nandor: {
           50: '#f6f7f6',
