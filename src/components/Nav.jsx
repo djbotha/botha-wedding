@@ -10,16 +10,17 @@ function NavItem({ title, img, target }) {
       <img src={img} className="h-80 w-40 rounded-sm object-cover shadow-2xl" />
       <div
         className="
+        font-handwritten
+        text-tuatara-50
         absolute
         -bottom-2
         right-4
         -rotate-90
-        text-sm
-        leading-4
+        text-sm uppercase
         "
         style={{ transformOrigin: 'left' }}
       >
-        <span className=" bg-tuatara-700 absolute whitespace-nowrap  px-2 py-1 text-slate-200 ">{title}</span>
+        <span className=" bg-tuatara-800 absolute whitespace-nowrap  px-2 pt-1 text-slate-200 ">{title}</span>
       </div>
     </a>
   );

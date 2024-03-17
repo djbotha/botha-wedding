@@ -3,10 +3,15 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Montserrat Variable', sans-serif;
+  font-family: 'Aire Bold Std', 'Montserrat Variable', sans-serif;
+  letter-spacing: 0.45px;
 }
 @layer base {
   html {
     @apply scroll-smooth;
   }
+}
+
+.font-handwritten {
+  letter-spacing: 0.75px;
 }

@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         handwritten: ['Aire Bold Std'],
+        santis: ['Santis W01 Regular'],
       },
       colors: {
         nandor: {

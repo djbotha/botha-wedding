@@ -26,13 +26,24 @@ function App() {
       <Section highlight>
         <Nav />
       </Section>
-      <Section title={'Important Information'} id="information" sidebar={trees} cover={important}>
+      <Section
+        title={
+          <div>
+            Important
+            <br />
+            Information
+          </div>
+        }
+        id="information"
+        sidebar={trees}
+        cover={important}
+      >
         <ImportantInformation />
       </Section>
       <Section highlight title="RSVP" id="rsvp" right sidebar={rocks} cover={rsvp}>
         <RSVP />
       </Section>
-      <Section title="Location & Accommodation" id="location" sidebar={clouds} cover={accommodation}>
+      <Section title="Accommodation" id="location" sidebar={clouds} cover={accommodation}>
         <Location />
       </Section>
       <Section highlight title={'On The Day'} id="schedule" sidebar={rocks2} cover={onTheDay} right>
