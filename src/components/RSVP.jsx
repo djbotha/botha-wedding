@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function RSVPEmbed() {
   return (
-    <div className="flex max-w-[640px] justify-center">
+    <div className="mx-auto flex max-w-[640px] justify-center">
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSeydZkXyL9eLTL5GYe0wnHFifcX_skAqeebQjWx0goa-39-_g/viewform?embedded=true"
         height="1154"
@@ -22,12 +22,14 @@ function RSVPEmbed() {
 export function RSVP() {
   const [showRSVP, setShowRSVP] = useState(false);
   return (
-    <div className="my-8 flex justify-center">
+    <div className="flex justify-center">
       <div className="">
-        <div className="mx-auto inline-block">We would love to have you attend our wedding. Please RSVP by clicking the button below.</div>
+        <div className="text-tuatara-900 mx-auto inline-block">
+          We would love to have you attend our wedding. Please RSVP by clicking the button below.
+        </div>
         <button
           onClick={() => setShowRSVP(o => !o)}
-          className="mx-auto my-8 flex items-center  rounded-md bg-nandor-400 px-6 py-4 text-lg text-slate-200"
+          className="bg-tuatara-700 mx-auto my-8 flex  items-center rounded-md px-6 py-4 text-lg text-slate-200"
         >
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="mr-2 h-6 w-6">
             <path

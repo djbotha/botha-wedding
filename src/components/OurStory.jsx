@@ -86,7 +86,7 @@ export function OurStory() {
   return (
     <div className="flex items-center justify-center py-8">
       {/* <Timeline /> */}
-      <div className="p-8 text-center md:w-1/2 md:p-0">
+      <div className="text-tuatara-300 p-8 text-center md:w-1/2 md:p-0">
         <p className="mb-4">
           Back in Grade 6, Daniël and Nadia's friendship sparked over chocolate Milky Mouse ice cream triangles in a secret tree hideaway. Amidst
           teenage twists and turns, miscommunication led to heartbreak, but their bond endured.
