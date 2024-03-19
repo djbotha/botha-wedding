@@ -7,7 +7,8 @@ export function Schedule() {
         <div className="mb-4">
           <b>Date & Time</b>
           <ul className="list-inside list-disc">
-            <li>22 June 2024, 14:30 for 15:00</li>
+            <li>22 June 2024</li>
+            <li>14:00 for 14:30</li>
           </ul>
         </div>
         <p className="mb-4">More details coming soon...</p>
