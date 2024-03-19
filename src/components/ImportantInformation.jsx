@@ -3,7 +3,7 @@ import React from 'react';
 export function ImportantInformation() {
   return (
     <div className="flex justify-center p-8">
-      <div className="justify-center  md:w-1/2 md:p-0">
+      <div className="justify-center  lg:w-1/2 lg:p-0">
         <p className="mb-4">
           We're thrilled to have you join us for this special occasion. Below, you'll find essential details to ensure your attendance is seamless.
         </p>

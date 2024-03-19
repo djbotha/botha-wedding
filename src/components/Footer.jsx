@@ -1,5 +1,5 @@
 import React from 'react';
 
 export function Footer() {
-  return <div className="h-56"></div>;
+  return <div className="h-4"></div>;
 }

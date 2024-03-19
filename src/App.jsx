@@ -3,7 +3,6 @@ import { Nav } from './components/Nav';
 import { Hero } from './components/Hero';
 import { ImportantInformation } from './components/ImportantInformation';
 import { Schedule } from './components/Schedule';
-import { Location } from './components/Location';
 import { Accommodation } from './components/Accommodation';
 import { RSVP } from './components/RSVP';
 import { Footer } from './components/Footer';
@@ -44,7 +43,7 @@ function App() {
         <RSVP />
       </Section>
       <Section title="Accommodation" id="location" sidebar={clouds} cover={accommodation}>
-        <Location />
+        <Accommodation />
       </Section>
       <Section highlight title={'On The Day'} id="schedule" sidebar={rocks2} cover={onTheDay} right>
         <Schedule />

@@ -23,7 +23,7 @@ export function RSVP() {
   const [showRSVP, setShowRSVP] = useState(false);
   return (
     <div className="flex justify-center p-8">
-      <div className="md:w-1/2">
+      <div className="lg:w-1/2">
         <p className="mx-auto mb-4 ">We would love to have you attend our wedding!</p>
         <b>Information</b>
         <ul className="mb-4  list-disc">
@@ -47,7 +47,7 @@ export function RSVP() {
 
         <a
           href={'https://forms.gle/3TDucKuQdkEaquXQ7'}
-          className="bg-tuatara-700 mx-auto my-8 flex items-center justify-center rounded-md px-6 py-4 text-lg text-slate-200"
+          className="mx-auto my-8 flex max-w-lg items-center justify-center rounded-md bg-tuatara-200 px-6 py-4 text-lg text-tuatara-950"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
