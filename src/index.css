@@ -15,3 +15,8 @@ body {
 .font-handwritten {
   letter-spacing: 0.75px;
 }
+
+b {
+  font-family: 'Santis W01 Regular';
+  font-size: 95%;
+}

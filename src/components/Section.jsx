@@ -7,7 +7,7 @@ function Section({ highlight, title, children, sidebar, right, cover, id }) {
       <div className="relative flex justify-center">
         {title ? (
           <span
-            className={`absolute inline-block px-2  py-2 font-santis text-3xl uppercase text-tuatara-50 drop-shadow-2xl [text-shadow:_1px_1px_0_rgb(0_0_0_/_80%)]  lg:text-7xl ${
+            className={`absolute inline-block px-2  py-2 font-santis text-4xl uppercase text-tuatara-50 drop-shadow-2xl [text-shadow:_1px_1px_0_rgb(0_0_0_/_80%)]  lg:text-7xl ${
               right ? '-' : ''
             }left-1/4 -translate-y-1/2`}
           >

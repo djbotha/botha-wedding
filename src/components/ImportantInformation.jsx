@@ -26,14 +26,14 @@ export function ImportantInformation() {
               We kindly request that all guests adhere to a <b>formal dress code</b>.
             </li>
             <li>
-              All black attire is requested, with <b>black-tie optional</b>.
+              <b>All black attire</b> is requested, with black-tie optional.
             </li>
             <li>
               Please <b>refrain</b> from wearing <b>white</b> or any other colors. This includes accessories and gents' shirts!
             </li>
             <li>
               For inspiration, feel free to explore our Pinterest board{' '}
-              <b className="hover:underline">
+              <b className="underline">
                 <a href="https://za.pinterest.com/nadiastroh01/guests-moodboard/">here</a>
               </b>
               .
