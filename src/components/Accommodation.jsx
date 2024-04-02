@@ -1,4 +1,5 @@
 import React from 'react';
+import AccommodationImg from '../assets/accommodation.png';
 
 export function Accommodation() {
   return (
@@ -21,14 +22,10 @@ export function Accommodation() {
         </div>
         <div>
           <div className="mb-4">
-            <p className="mb-4">
-              Nestled in the heart of Paarl, Belair Pavilion offers a charming and elegant setting for our special day. With its scenic surroundings
-              and exquisite facilities, we couldn't think of a more perfect place to exchange our vows.
-            </p>
             <b>Accommodation</b>
             <p className="mb-4">
               There is ample accommodation available both at and near the venue. Please refer to the attached list{' '}
-              <a href="/src/assets/accommodation.png" target="_blank" className="underline">
+              <a href={AccommodationImg} target="_blank" className="underline">
                 here
               </a>{' '}
               for a selection of nearby options.
