@@ -15,7 +15,7 @@ function Section({ highlight, title, children, sidebar, right, cover, id }) {
           </span>
         ) : null}
         {sidebar && !right && <div className={`  flex-1 bg-cover bg-center`} style={{ backgroundImage: `url('${sidebar}')` }}></div>}
-        <div className={`px-2 py-8 ${highlight ? 'text-tuatara-800' : 'text-tuatara-200'} ${sidebar ? 'flex-[6]' : ''}`}>{children}</div>
+        <div className={`px-2 py-8 lg:pt-14 ${highlight ? 'text-tuatara-800' : 'text-tuatara-200'} ${sidebar ? 'flex-[6]' : ''}`}>{children}</div>
         {sidebar && right && <div className={`  flex-1 bg-cover bg-center`} style={{ backgroundImage: `url('${sidebar}')` }}></div>}
       </div>
     </div>
