@@ -6,7 +6,7 @@ import info from '../assets/info.jpg';
 
 function NavItem({ title, img, target }) {
   return (
-    <a className="relative m-2 flex w-1/3  cursor-pointer flex-col rounded-t-full sm:m-2  lg:m-5" href={`#${target}`}>
+    <a className="relative m-2 flex  max-w-[185px] cursor-pointer flex-col rounded-t-full sm:m-2  lg:m-5" href={`#${target}`}>
       <img src={img} className="h-80 w-full rounded-sm object-cover shadow-2xl sm:w-40" />
       <div
         className="
@@ -28,7 +28,7 @@ function NavItem({ title, img, target }) {
 
 export function Nav() {
   return (
-    <div className="flex w-full flex-wrap items-center justify-center sm:flex-nowrap" id="nav">
+    <div className="grid w-full grid-cols-2 sm:flex-nowrap md:grid-cols-4" id="nav">
       <NavItem title="Important Information" target="information" img={info} />
       <NavItem title="RSVP" target="rsvp" img={rsvp} />
       <NavItem title="Location & Accommodation" target="location" img={location} />

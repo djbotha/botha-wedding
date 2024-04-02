@@ -31,10 +31,6 @@ export function Accommodation() {
               for a selection of nearby options.
             </p>
             <p className="mb-4">
-              Whether you choose to stay on-site or explore accommodations in the vicinity, we're confident you'll find the perfect place to rest and
-              rejuvenate during your stay.
-            </p>
-            <p className="mb-4">
               Should you have any questions or require further assistance regarding accommodation, please don't hesitate to reach out to us. We can't
               wait to celebrate this joyous occasion with you at Belair!
             </p>

@@ -26,7 +26,7 @@ export function RSVP() {
       <div className="lg:w-1/2">
         <b>Information</b>
         <ul className="mb-4  list-disc">
-          <li>To confirm your attendance, please RSVP by clicking the button in the following section.</li>
+          <li>To confirm your attendance, please RSVP by clicking the button below.</li>
           <li>
             To help us with our planning, we ask that you RSVP by <b>22 May 2024</b>.
           </li>

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Aire Bold Std', 'Montserrat Variable', sans-serif;
+  font-family: 'Georgia', 'Montserrat Variable', sans-serif;
   letter-spacing: 0.45px;
 }
 @layer base {
@@ -17,6 +17,6 @@ body {
 }
 
 b {
-  font-family: 'Santis W01 Regular';
-  font-size: 95%;
+  /* font-family: 'Santis W01 Regular'; */
+  /* font-size: 95%; */
 }

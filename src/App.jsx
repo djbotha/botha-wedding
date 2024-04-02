@@ -22,7 +22,7 @@ function App() {
     <div className="w-full ">
       <Hero />
 
-      <Section highlight>
+      <Section highlight tight>
         <Nav />
       </Section>
       <Section
