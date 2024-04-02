@@ -24,22 +24,21 @@ export function RSVP() {
   return (
     <div className="flex justify-center p-8">
       <div className="lg:w-1/2">
-        <p className="mx-auto mb-4 ">We would love to have you attend our wedding!</p>
         <b>Information</b>
         <ul className="mb-4  list-disc">
           <li>To confirm your attendance, please RSVP by clicking the button in the following section.</li>
           <li>
-            To help us with our planning, we ask that you kindly RSVP by <b>22 May 2024</b>.
+            To help us with our planning, we ask that you RSVP by <b>22 May 2024</b>.
           </li>
           <li>
             If we don't receive your RSVP by the <b>date specified</b>, we cannot make any exceptions and will have to mark you as 'no'.
           </li>
           <li>Please include all names of attendees in your response.</li>
           <li>
-            Unfortunately, we cannot accommodate <b>additional guests</b>, we can only accommodate those formally invited on your wedding invitation.
+            Unfortunately, we cannot accommodate <b>additional guests</b>, we can only accommodate those formally invited.
           </li>
           <li>
-            We love your little ones as much as you do! However, we have decided to keep our wedding as an <b>adult only</b> event.
+            We love your little ones as much as you do! However, we have decided to keep our wedding an <b>adult only</b> event.
           </li>
         </ul>
 

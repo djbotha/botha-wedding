@@ -6,8 +6,8 @@ import info from '../assets/info.jpg';
 
 function NavItem({ title, img, target }) {
   return (
-    <a className="relative m-4 flex cursor-pointer flex-col rounded-t-full " href={`#${target}`}>
-      <img src={img} className="h-80 w-40 rounded-sm object-cover shadow-2xl" />
+    <a className="relative m-2 flex w-1/3  cursor-pointer flex-col rounded-t-full sm:m-2  lg:m-5" href={`#${target}`}>
+      <img src={img} className="h-80 w-full rounded-sm object-cover shadow-2xl sm:w-40" />
       <div
         className="
         absolute
