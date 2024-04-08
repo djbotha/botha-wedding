@@ -7,7 +7,11 @@ function Section({ highlight, title, children, sidebar, right, cover, id, tight 
       <div className="relative flex justify-center">
         {title ? (
           <span
-            className={`absolute inline-block -translate-y-1/2 overflow-hidden  px-2 py-2 font-santis text-2xl uppercase text-tuatara-50 drop-shadow-2xl [text-shadow:_1px_1px_0_rgb(0_0_0_/_80%)]  md:text-5xl  lg:text-7xl`}
+            className={`absolute inline-block -translate-y-1/2 overflow-hidden  px-2 py-2 font-santis text-2xl uppercase ${
+              highlight ? 'text-tuatara-950' : 'text-tuatara-50'
+            } drop-shadow-2xl ${
+              highlight ? '[text-shadow:_1px_1px_0_rgb(255_255_255_/_42%)]' : '[text-shadow:_1px_1px_0_rgb(0_0_0_/_80%)]'
+            }  md:text-5xl  lg:text-7xl`}
           >
             {title}
           </span>
