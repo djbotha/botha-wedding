@@ -53,7 +53,9 @@ export function ImportantInformation() {
             <li>
               To view our registry and explore gift options, please visit{' '}
               <b className="underline">
-                <a href="https://yuppiechef.com/yc7473334">Yuppiechef</a>
+                <a href="https://yuppiechef.com/yc7473334" target="_blank">
+                  Yuppiechef
+                </a>
               </b>
               .
             </li>
