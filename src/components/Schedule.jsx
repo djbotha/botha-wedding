@@ -8,7 +8,7 @@ export function Schedule() {
           Here are the details for the schedule, accommodation, and timings for the day. If you have any questions, please don't hesitate to call us!
         </p>
         <div className="mb-4">
-          <b class="text-lg">Date &amp; Time</b>
+          <b className="text-lg">Date &amp; Time</b>
           <ul className="list-inside list-disc">
             <li>
               <b>Date:</b> 22 June 2024
@@ -19,7 +19,8 @@ export function Schedule() {
           </ul>
         </div>
         <div className="mb-4">
-          <b class="text-lg">Accommodation</b>
+          <b className="text-lg">Accommodation</b>
+          <p className="mb-2">For those that booked accommodation at the venue, here are some important details.</p>
           <ul className="list-inside list-disc">
             <li>
               <b>Check-In Time:</b> Between 14:00 and 18:00 (We recommend checking in before the ceremony).
@@ -37,7 +38,7 @@ export function Schedule() {
         </div>
 
         <div className="mb-4">
-          <b class="text-lg">Schedule</b>
+          <b className="text-lg">Schedule</b>
           <ul className="list-inside list-disc">
             <li>
               <b>Guests Arrival:</b> 14:00
