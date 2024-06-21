@@ -1,4 +1,5 @@
 import React from 'react';
+import seatingPlan from '../assets/seating-plan.png';
 
 export function Schedule() {
   return (
@@ -53,6 +54,11 @@ export function Schedule() {
               <b>Reception:</b> 17:30 - 23:00
             </li>
           </ul>
+        </div>
+
+        <div className="mb-4">
+          <b className="text-lg">Seating Chart</b>
+          <img src={seatingPlan} className="w-full" />
         </div>
         <p>Thank you for your attention to these important details. We look forward to celebrating with you on our special day!</p>
       </div>
